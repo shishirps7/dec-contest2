@@ -1,0 +1,214 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    align-items: center;
+    padding-inline: 100px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ECECE8;
+}
+
+#divnav2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    align-items: center;
+    color: #E0E0E0;
+    font-size: 16px;
+    height: 60px;
+}
+
+#hat {
+    position: relative;
+    top: -17px;
+    left: 23px;
+}
+
+#divnav2>button {
+    height: 70%;
+    width: 17%;
+    border: 2px solid #FCC822;
+    background: #ffffff;
+    border-radius: 3px;
+}
+
+#divnav2>button>a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #FCC822;
+    font-weight: 500;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+    background-image: url(./assets/Vector\ 4.png);
+    background-size: 360px 120px;
+    background-repeat: no-repeat;
+    background-position: 0px 540px;
+    height: 86.8vh;
+}
+
+#herodiv1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#herodiv1>h1 {
+    margin-top: -180px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#herodiv1>p {
+    width: 95%;
+    height: 30px;
+    padding-top: 6px;
+    margin-top: 30px;
+    margin-left: 6px;
+    padding-left: 10px;
+    border-left: 1px solid #333333;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #828282;
+}
+
+#herodiv1>button {
+    width: 37%;
+    margin-top: 35px;
+    background-color: #ffcd2c;
+    border: none;
+    border-radius: 1px;
+    height:40px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #ffffff;
+}
+#herodiv2{
+    padding-bottom: 30px;
+}
+#herodiv2>img{
+    width: 115%;
+}
+#categories{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.151);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#categories>div{
+    display: flex;
+    flex-direction: column;
+    width: 52%;
+    height: 65%;
+    background-color: #ffffff;
+    border-radius: 2px;
+}
+#cat_close{
+    display: flex;
+    justify-content: end;
+    padding-top: 25px;
+    padding-right: 17px;
+}
+#cat_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-top: 70px;
+}
+#cat_title>h1{
+font-size: 37px;
+font-weight: 500;
+line-height: 44px;
+letter-spacing: 0em;
+color: #333333;
+}
+#cat_title>p{
+font-size: 17px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+margin-top: 20px;
+color: #333333;
+}
+#subcat{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:30px;
+    width: 70%;
+    margin-top: 3%;
+    margin-left: 12%;
+}
+#cat_names{
+    display: flex;
+    align-items: center;
+}
+#cat_button{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    height:18% ;
+    padding-right: 3%;
+    margin-top: 4%;
+}
+#start_quiz{
+height: 52%;
+width: 16%;
+border: none;
+background-color: #fecc2b;
+border-radius: 1px;
+margin-bottom: 20px;
+}
+#start_quiz>a{
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #ffffff;
+}
+.tags{
+    background-color: #D1D1D1;
+    font-size: 14px;
+    padding: 5px;
+    transition: 0.3s;
+}
+.cross{
+    display: none;
+    background-color: black;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    height: 31px;
+    width: 25px;
+    transition: 0.3s;
+    margin-left: 4px;
+}
